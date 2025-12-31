@@ -86,34 +86,12 @@ python3 recon_tool.py -d example.com --simple
 | `--simple`      | Simple HTTPX mode (no tech detection)                       |
 | `--timeout`     | Timeout in seconds for Subfinder/HTTPX (default: 600)       |
 | `--max-hosts`   | Maximum hosts per category (`number` or `all`, default: 25) |
-| `--group-by-ip` | Group results by IP (not implemented yet)                   |
 
 ---
 
 ## Example Output
 
-* **Quick stats** of discovered hosts
-* **Categorized results** by status codes
-* **Interesting findings** like admin panels, APIs, and dev servers
-* **Reports** saved as JSON and plain text in the output directory
-
-```text
-Total discovered: 120
-DNS resolved: 120
-Online hosts: 115
-Web services: 100
-
-Fully Operational: 70
-Redirects: 10
-Blocked: 5
-Server Errors: 5
-No Response: 25
-
-Interesting Finds:
-- Admin panels: 5
-- API endpoints: 12
-- Development servers: 3
-```
+![image](ss.png)
 
 ---
 
@@ -124,7 +102,6 @@ subfinder-httpx-recon-tool/
 │
 ├─ recon_tool.py          # Main Python script
 ├─ README.md              # Documentation
-└─ results/               # Directory for output reports
 ```
 
 ---
@@ -147,4 +124,4 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 
 ## Contact
 
-Muneeb Anjum – [GitHub](https://github.com/<your-username>) – [muneebanjum370@gmail.com](mailto:muneebanjum370@gmail.com)
+Muneeb Anjum – [GitHub](https://github.com/muneebanjum06) – [muneebanjum370@gmail.com](mailto:muneebanjum370@gmail.com)
